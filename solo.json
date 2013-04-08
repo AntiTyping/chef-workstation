@@ -1,0 +1,8 @@
+{
+    "run_list": [
+      "recipe[homebrew]",
+      "recipe[op::default]",
+      "recipe[vimconfig::default]",
+      "recipe[dotfiles::default]"
+    ]
+}
