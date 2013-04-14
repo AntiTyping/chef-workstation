@@ -1,8 +1,13 @@
 {
+	"rvm": {
+"user": "apliszka"
+},
     "run_list": [
       "recipe[homebrew]",
-      "recipe[op::default]",
+      "recipe[tmux]",
+      "recipe[macvim]",
       "recipe[vimconfig::default]",
-      "recipe[dotfiles::default]"
+      "recipe[dotfiles::default]",
+      "recipe[rvm]"
     ]
 }
