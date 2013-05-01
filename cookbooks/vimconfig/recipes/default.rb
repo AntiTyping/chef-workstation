@@ -7,4 +7,7 @@ bash "link_vimrc" do
   ln -sf ~/.vim/vimrc ~/.vimrc
   EOH
   creates "~/.vimrc"
+  not_if do
+    File.exists?("#{ENV['HOME']}/.vim")
+  end
 end
