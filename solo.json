@@ -8,6 +8,7 @@
       "recipe[macvim]",
       "recipe[vimconfig::default]",
       "recipe[dotfiles::default]",
-      "recipe[rvm]"
+      "recipe[rvm]",
+      "recipe[tools]"
     ]
 }
