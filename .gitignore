@@ -1,2 +1,5 @@
 .bundle
 *.*~
+chef-client-running.pid
+chef-stacktrace.out
+homebrew_go
